@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    
+}
+input[type=submit]{
+    background-color: #A9A9A9;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body {
+    background-color: yellow;
+}
+ .navbar{
+  	margin-bottom: 0;
+  	border-radius: 0;
+  	background-color: #fdfefe;
+  	color: #000000;
+  	padding: 1% 0;
+  	font-size: 1.6em;
+  	border: 0;
+        word-spacing: 15px;
+	text-align: left;
+	
+
+  }
+  .navbar-brand{
+  	float: right;
+  	min-height: 55px;
+  	padding: 0 15px 5px;
+  }
+ .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color:black;
+    background-color:#FFF;
+    }
+  .navbar-inverse .navbar-nav li a {
+  	color: #000000;
+  }
+
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+		<div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+				
+<a class="navbar-brand" href="#"><img src="http://globalriskinsights.com/wp-content/uploads/2016/06/brck-logo.png" width="150" height="60"></a>
+			</div>
+			 <ul class="nav nav-pills">
+  	<li class="active"><a href="NOC.html">Home</a></li>
+	<li class="active"><a href="Installation.html">Installation</a></li>
+  	<li class="active"><a href="Maintenance.html">Maintenance</a></li>
+  	<li class="active"><a href="Updates.html">Updates</a></li>
+	</ul> 
+		</div>
+	</nav>
+<div class="container" style="max-width:800px;padding:30px 40px;background:#ebeff2">
+
+  <h1 class="card-header info-color white-text text-center py-4">
+    <strong>Installation</strong>
+  </h1>
+
+  <form class="text-left" style="color: #333;">
+
+<div class="col-sm-11"> 
+    <div class="form-group">
+     <label for="sacco">Mac Address:</label>
+      <input type="mac_address" class="form-control" id="mac_address" placeholder="Enter device Mac Address">
+    </div>
+
+    <div class="form-group">
+      <label for="sacco">Sacco Name:</label>
+      <input type="sacco" class="form-control" id="sacco" placeholder="Sacco Name">
+    </div>
+
+    <div class="form-group">
+      <label for="route">Matatu Route:</label>
+      <input type="route" class="form-control" id="route" placeholder="Matatu Route">
+    </div>
+
+    <div class="form-group">
+      <label for="number">Registration Number:</label>
+      <input type="rnumber" class="form-control" id="rnumber" placeholder="Registration Number">
+    </div class="col-sm-5">
+	<div>
+	<label for="simcontrol">Updated on Sim Control?:</label>
+	</div>
+   <div class="checkbox">
+    <label><input type="checkbox">Yes</label>
+  </div>
+<div class="checkbox">
+    <label><input type="checkbox">No</label>
+  </div>
+
+    <div class="form-group">
+      <label for="driver number">Driver Number:</label>
+      <input type="driver number" class="form-control" id="driver number" placeholder="Driver Number">
+    </div>
+
+    <div class="form-group">
+      <label for="driver name">Driver Name:</label>
+      <input type="driver name" class="form-control" id="driver name" placeholder="Driver Name">
+    </div>
+	<div>
+	<label for="installer">Choose installer:</label>
+	</div>
+    <div class="radio">
+  	<label><input type="radio" name="optradio">Makyol</label>
+   </div>
+   <div class="radio">
+  	<label><input type="radio" name="optradio">Robessie</label>
+   </div>
+   <div class="radio disabled">
+  	<label><input type="radio" name="optradio" >BRCK Ltd</label>
+  </div> 
+
+    <div class="form-group">
+      <label for="fireware">Firmware Time & OS Time:</label>
+      <input type="firmware" class="form-control" id="firmware" placeholder="Firmware">
+    </div>
+
+    <div class="form-group">
+      <label for="tools">Firmware tool Version:</label>
+      <input type="tool" class="form-control" id="tool" placeholder="Tool">
+    </div>
+
+    <div class="form-group">
+      <label for="simcontrol">Sim Control:</label>
+      <input type="simcontrol" class="form-control" id="simcontrol" placeholder="Sim Control">
+    </div>
+
+    <div>
+	<label for="cloud">Updated on BRCK Cloud?:</label>
+	</div>
+   <div class="checkbox">
+    <label><input type="checkbox">Yes</label>
+  </div>
+<div class="checkbox">
+    <label><input type="checkbox">No</label>
+  </div>
+  <button class="btn btn-info btn-block my-4" type="submit">Submit</button>
+  </form>
+</div>
+
+</body> 
+</html>
