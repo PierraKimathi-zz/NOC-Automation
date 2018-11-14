@@ -171,4 +171,4 @@ Type the following into the autostart file:
 
 ![Signage Setup](https://github.com/brck/operations-utils/utilities/tv_signage/images/Brck Signage Setup.png)
 
-![Signage Server](https://github.com/brck/operations-utils/utilities/tv_signage/images/Brck Signage Server.png)
+![Signage Server](https://raw.githubusercontent.com/brck/operations-utils/utilities/tv_signage/images/Brck Signage Setup.png)
