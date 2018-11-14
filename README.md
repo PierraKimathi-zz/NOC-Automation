@@ -86,9 +86,11 @@ This will update the Debian `apt` package to include *NodeSource* packages.
 
 - Perform a quick calculation to confirm successful installation:
 
+```
 $node
 16/2
 8
+```
 
 
 - Press Ctrl+C twice to Exit
