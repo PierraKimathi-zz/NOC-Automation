@@ -1,8 +1,6 @@
 ![corsica](https://raw.github.com/mozilla/corsica/master/static/corsica.png)
 
-![build status: gold](https://travis-ci.org/mozilla/corsica.png)
-
-# Introduction to Raspberry Pi and Mozilla Corsica.
+ Introduction to Raspberry Pi and Mozilla Corsica.
 
 ## Introduction
 
