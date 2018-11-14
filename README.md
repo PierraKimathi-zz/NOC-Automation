@@ -172,6 +172,7 @@ Type the following into the autostart file:
 
 ```
 
-![Signage Setup](https://github.com/brck/operations-utils/utilities/tv_signage/images/Brck Signage Setup.png)
+![brck signage setup](https://user-images.githubusercontent.com/18416416/48495405-f32a8080-e840-11e8-8be8-fa352fa0a983.png)
 
-![Signage Server](https://raw.githubusercontent.com/brck/operations-utils/utilities/tv_signage/images/Brck Signage Setup.png)
+![brck signage server](https://user-images.githubusercontent.com/18416416/48495439-00476f80-e841-11e8-8a70-ab486641e750.png)
+
